@@ -1,0 +1,237 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+hr,p,ul,span,h3{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	font-size: 20px;
+}
+.top{
+	overflow: hidden;
+	background-color: white;
+}
+header .top a{
+	display: block;
+}
+header .top a:nth-child(1) img{
+	float: left;
+	margin-top: 0.775rem;
+	margin-left: 0.375rem;
+	height: 0.675rem;
+	width: 0.75rem;
+}
+header .top img:nth-child(2){
+	float:left;
+	margin-left: 5.775rem;
+	width: 3.675rem;
+	margin-top: 0.475rem; 
+}
+header .top a:nth-child(3) img{
+	float: right;
+	width: 0.9rem;
+	height: 0.85rem;
+	margin-top: 0.525rem;
+	margin-right: 0.475rem;
+}
+header .top a:nth-child(4) img{
+	width: 17.45rem;
+	height: 6.15rem;
+	margin-top: 0.825rem;
+}
+header .top a:nth-child(4){
+	display: block;
+	width: 17.45rem;
+	margin: 0 auto;
+}
+.middle{
+	margin-top: 0.2rem;
+	background-color: white;
+	overflow: hidden;
+}
+.middle>p{
+	float: left;
+	width: 2.945rem;
+	font-size: 0.7rem;
+	border-left: 4px solid #3495e8;
+	padding-left: 0.325rem;
+	margin-top: 0.65rem;
+	margin-left: 0.625rem;
+	margin-bottom: 0.425rem;
+}
+.more{
+	text-decoration: none;
+	float: right;
+	font-size: 0.525rem;
+	color: #919191;
+	display: block;
+	width: 3.50rem;
+	height: 0.675rem;
+	line-height: 0.675rem;
+	margin-top: 0.675rem;
+	margin-right: 0.6rem;
+}
+.more span{
+	font-size: 0.675rem;
+	vertical-align: -0.1rem;
+}
+.middle hr{
+	clear: both;
+	width: 17.74rem;
+}
+.banner{
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+}
+.banner img:nth-child(1){
+	float: left;
+	width: 4.725rem;
+	height: 8.5rem;
+	margin-left: 0.275rem;
+	margin-top: 1.625rem;
+	margin-bottom: 1.7rem;
+}
+.banner img:nth-child(3){
+	float: right;
+	width: 4.775rem;
+	height: 8.375rem;
+	margin-right: 0.275rem;
+	margin-top: 1.7rem;
+}
+.banner img:nth-child(2){
+	position: absolute;
+	width: 7.95rem;
+	height: 9.975rem;
+	display: block;
+	left: 5rem;
+	top: 0.9rem;
+}
+.banner p{
+	font-size: 0.45rem;
+	color: #807f82;
+	clear: both;
+	margin-top: 1.75rem;
+	text-align: center;
+}
+.banner a{
+	display: block;
+	width: 4.475rem;
+	height: 1.1rem;
+	text-align: center;
+	line-height: 1.1rem;
+	border:4px solid #3495e8;
+	color: #3495e8;
+	text-decoration: none;
+	font-size: 0.625rem;
+	margin:0 auto;
+	margin-top: 0.8rem;
+	margin-bottom: 0.875rem;
+}
+.content{
+	margin-top: 0.2rem;
+	background-color:white;
+	overflow: hidden; 
+}
+.content p.pay{
+	float: left;
+	width: 5.025rem;
+	font-size: 0.7rem;
+	border-left: 4px solid #3495e8;
+	padding-left: 0.325rem;
+	margin-top: 0.65rem;
+	margin-left: 0.625rem;
+	margin-bottom: 0.425rem;
+}
+.content ul{
+	list-style: none;
+	clear: both;
+}
+.content ul li{
+	border-top: 1px solid #c3c3c3;
+}
+.content ul li:last-child{
+	border-bottom: 1px solid #c3c3c3;
+}
+.content ul li>a{
+	display: block;
+	overflow: hidden;
+}
+.content ul li img{
+	float: left;
+	width: 7.475rem;
+	height: 4.45rem;
+	margin-top: 0.525rem;
+	margin-bottom: 0.525rem;
+}
+.content ul li div{
+	float:left;
+}
+.content ul li div p{
+	font-size: 0.7rem;
+	color:#59585a;
+	margin-top: 0.875rem;
+	margin-left: 0.375rem;
+	margin-bottom: 2.1rem;
+}
+.content ul li span{
+	font-size: 0.45rem;
+	color: #b8b8b8;
+}
+.content ul li span:nth-child(2){
+	margin-left: 0.375rem;
+}
+.content ul li span:nth-child(5){
+	margin-left: 0.24rem;
+}
+.content h3{
+	font-size: 0.7rem;
+	margin-top: 1rem;
+	margin-left: 0.475rem;
+	margin-bottom: 0.6rem;
+}
+.content h3 span{
+	font-size: 0.575rem;
+	margin-left: 0.775rem;
+}
+#text{
+	font-size: 0.5rem;
+	color: #807f82;
+	line-height: 0.925rem;
+	margin-left: 0.4rem;
+	margin-right: 0.75rem;
+	margin-bottom: 0.85rem;
+}
+.money{
+	width: 9rem;
+	height: 1.95rem;
+	line-height: 1.95rem;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1rem;
+	color: #3495e8;
+	font-weight: bold;
+	display: block;
+	float: left;
+	border-top: 1px solid #3495e8;
+	border-right: 1px solid #3495e8;
+	border-bottom: 1px solid #3495e8;
+}
+.mark{
+	display: block;
+	background-color: #3495e8;
+	width: 8.8rem;
+	height: 1.95rem;
+	font-size: 0.75rem;
+	text-align: center;
+	line-height:1.95rem;
+	float: left;
+	border-top: 1px solid #3495e8;
+	border-right: 1px solid #3495e8;
+	border-bottom: 1px solid #3495e8;
+	text-decoration: none;
+	color: white;
+}

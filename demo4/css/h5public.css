@@ -1,0 +1,152 @@
+/*全局样式*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: arial;
+}
+p,figcaption{
+	color: #7f7f7f;
+	line-height: 22px;
+}
+.hover{
+	color: #cb2700;
+}
+/*头部样式*/
+header{
+	background-color: #000;
+	min-width: 940px;
+}
+header section{
+	width: 940px;
+	margin: 0 auto;
+	height: 160px;
+}
+header section ul{
+	list-style: none;
+	float: right;
+}
+header section ul a{
+	text-decoration: none;
+	color: #7f7f7f;
+}
+header section ul a:hover{
+	color: #cb2700;
+}
+header section ul li{
+	float: left;
+	margin-left: 22px;
+	margin-top: 70px;
+}
+header section img{
+	margin-top: 25px;
+	margin-left: -29px;
+}
+/*more按钮样式*/
+.more{
+	display: block;
+	width: 106px;
+	height: 41px;
+	background-image: url(../img/more-bg_31.jpg);
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	line-height: 41px;
+	color: white;
+	margin-top: 28px;
+}
+/*主体公共部分*/
+.content{
+	background-image:url(../img/content-bg_03.png);
+	height: 1260px;
+	min-width: 940px; 
+}
+.content-inner,.content-img{
+	width: 940px;
+	margin:0 auto;
+}
+.content-img{
+	height: 180px;
+	padding-top: 40px;
+}
+.content-img a{
+	display: block;
+	width: 300px;
+	height: 180px;
+	float: left;
+	margin-right: 20px;
+}
+.content-img a:last-child{
+	margin-right: 0;
+}
+.content-inner{
+	height: 676px;
+}
+.content-inner>section{
+	width: 620px;
+	height: 676px;
+	float: left;
+}
+.content-inner>aside{
+	width: 300px;
+	height: 676px;
+	float: left;
+	margin-left: 20px;
+	color: white;
+}
+
+.content-inner>section h3{
+	color: white;
+	font-size: 25px;
+	margin-top: 52px;
+	margin-bottom: 22px;
+}
+/*h3背景加圆角*/
+aside h3{
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	background-color: #101111;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 22px;
+	border-radius: 5px;
+}
+/*页面底部公共样式*/
+footer{
+	background-color: #0f1010;
+	min-width: 940px; 
+}
+footer>section{
+	height: 124px;
+	width: 940px;
+	margin:0 auto;
+	line-height: 25px;
+	color: #7f7f7f;
+}
+footer>section section:last-child{
+	float: right;
+	margin-right: 84px;
+	margin-top: 50px;
+}
+footer>section section:last-child a{
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+footer>section section:last-child a:last-child{
+	margin-right: 0px;
+}
+footer>section section:first-child{
+	width: 275px;
+	float: left;
+	margin-left: 170px;
+	margin-top: 36px;
+}
+footer>section section:first-child span:first-child{
+	margin-left: 66px;
+}
+footer a{
+	color: #cb2800;
+}

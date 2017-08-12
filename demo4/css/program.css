@@ -1,0 +1,66 @@
+
+/*内容列表样式*/
+.content-inner>section ul{
+	list-style: none;
+	width: 300px;
+	float: left;
+}
+.list ul:last-child{
+	margin-left: 20px;
+}
+.list{
+	overflow: hidden;
+}
+.content-inner>section>article:first-child{
+	height: 412px;
+	border-bottom:1px dotted #7f7f7f; 
+}
+/*左边内容样式*/
+.content-inner section article:last-child span{
+	color: white;
+}
+.content-inner section article:last-child p:nth-child(4){
+	margin-top: 20px;
+}
+.content-inner section article:last-child img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.content-inner>section ul li{
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px dotted #7f7f7f;
+	background-image: url(../img/sanjiao_05.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.content-inner>section ul li:last-child{
+	border-bottom:none;
+}
+.content-inner>section ul a{
+	text-decoration: none;
+	color: white;
+	margin-left: 13px;
+}
+/*右边样式*/
+aside figure:nth-child(2) ul{
+	list-style: none;
+	margin-top: 15px;
+}
+aside figure:nth-child(2) ul li{
+	color: white;
+	height: 36px;
+	border-bottom: 1px dotted #7f7f7f;
+	line-height: 36px;
+}
+.content  li:last-child{
+	border-bottom: none;
+}
+aside figure figcaption{
+	margin-top: 25px;
+}
+
+aside figure{
+	padding-left: 20px;
+}

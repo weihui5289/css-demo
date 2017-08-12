@@ -1,0 +1,41 @@
+.content-inner section img{
+			float: left;
+			margin-right: 22px;
+			margin-bottom: 28px;
+			margin-top: 25px;
+		}
+		.content-inner section p:nth-child(4){
+			margin-top: 25px;
+		}
+		.content-inner section p{
+			width: 600px;
+		}
+		span{
+			color: white;
+		}
+		aside h3{
+			margin-top: 40px;
+		}
+		aside p{
+			padding-left: 20px;
+		}
+		aside ul{
+			margin-top: 38px;
+			list-style: none;
+			padding-left: 20px;
+		}
+		aside ul li{
+			color: #7f7f7f;
+			height: 36px;
+			border-bottom: 1px dotted #7f7f7f;
+			line-height: 36px;
+		}
+		aside ul li:last-child{
+			border-bottom: none;
+		}
+		aside ul li span{
+			margin-right: 20px;
+		}
+		.content{
+			height: 850px;
+		}

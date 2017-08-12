@@ -1,0 +1,165 @@
+/*头部样式*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: arial;
+}
+.header{
+	background-color: #000;
+	min-width: 940px;
+}
+.nav{
+	width: 940px;
+	margin: 0 auto;
+	height: 160px;
+}
+.nav ul{
+	list-style: none;
+	float: right;
+}
+.nav ul a{
+	text-decoration: none;
+	color: #7f7f7f;
+}
+.nav ul a:hover{
+	color: #cb2700;
+}
+.nav ul li{
+	float: left;
+	margin-left: 22px;
+	margin-top: 70px;
+}
+.nav img{
+	margin-top: 25px;
+	margin-left: -29px;
+}
+/*more按钮样式*/
+ .more{
+	display: block;
+	width: 106px;
+	height: 41px;
+	background-image: url(../img/more-bg_31.jpg);
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	line-height: 41px;
+	color: white;
+	margin-top: 28px;
+}
+/*公共的内容容器*/
+.content{
+	background-image:url(../img/content-bg_03.png); 
+}
+.content-inner,.content-img{
+	width: 940px;
+	margin:0 auto;
+}
+.content-img{
+	height: 180px;
+	padding-top: 40px;
+}
+.content-img a{
+	display: block;
+	width: 300px;
+	height: 180px;
+	float: left;
+	margin-right: 20px;
+}
+.content-img a:last-child{
+	margin-right: 0;
+}
+.content-inner{
+	height: 676px;
+}
+.content-inner-left{
+	width: 620px;
+	height: 676px;
+	float: left;
+}
+.content-inner-right{
+	width: 300px;
+	height: 676px;
+	float: left;
+	margin-left: 20px;
+	color: white;
+}
+.content-inner-left h3{
+	color: white;
+	font-size: 25px;
+	margin-top: 52px;
+	margin-bottom: 22px;
+}
+/*footer样式*/
+.footer{
+	background-color: #0f1010;
+}
+.footer-inner{
+	height: 124px;
+	width: 940px;
+	margin:0 auto;
+	line-height: 25px;
+	color: #7f7f7f;
+}
+.share{
+	float: right;
+	margin-right: 84px;
+	margin-top: 50px;
+}
+.share a{
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+.share a:last-child{
+	margin-right: 0px;
+}
+.info{
+	width: 275px;
+	float: left;
+	margin-left: 170px;
+	margin-top: 36px;
+}
+.footer-inner .info span:first-child{
+	margin-left: 66px;
+}
+.footer-inner a{
+	color: #cb2800;
+}
+/*h3背景加圆角*/
+.content-inner-right h3{
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	background-color: #101111;
+	margin-top: 40px;
+	margin-bottom: 33px;
+	padding-left: 22px;
+	border-radius: 5px;
+}
+
+/*列表样式*/
+.content-inner-right ul{
+	list-style: none;
+	padding-left: 20px;
+}
+.content-inner-right ul li{
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px dotted #7f7f7f;
+	background-image: url(../img/sanjiao_05.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.content-inner-right ul li:last-child{
+	border-bottom:none;
+}
+.content-inner-right ul a{
+	text-decoration: none;
+	color: white;
+	margin-left: 13px;
+}
+.nav .hover{
+	color: #cb2700;
+}
